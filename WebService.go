@@ -30,7 +30,7 @@ type TwitterClient struct {
 
 func getClient() *twitter.Client {
 	twitterClient := TwitterClient{}
-	twitterClient.client = twitterClient.authenticate(AddOauthInputs("afUEBRPPT1AXtZtCUdM0XGgyn", "9z8ptVgxO0YZApNHOzRAOmGPy9f06tscV3WejIuFKxMaHFZm4Z", "2691889945-fkeulM3oT1OsXD4lzVfgRGR1bUx3wnHJNaNsHcM", "QTrvEvenXttAz4KSfRU6SKKtTfyZnJe8kt4lp7RA5a22Z"))
+	twitterClient.client = twitterClient.authenticate(AddOauthInputs("xxxx", "xxx", "xxxx", "xxxxxx"))
 	return twitterClient.client
 }
 
